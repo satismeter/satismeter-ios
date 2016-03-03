@@ -22,30 +22,29 @@ SatisMeter is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 
-
 ```ruby
 pod "SatisMeter"
 ```
 
+Import header
 ```objective-c
-#import <APPod/SatisMeter.h>
+#import <SatisMeter/SatisMeter.h>
+```
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-// Override point for customization after application launch.
+In your app delegate inside didFinishLaunchingWithOptions type this:
+
+```objective-c
 NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
 [formatter setDateFormat:@"yyyy-MM-dd HH:mm:ss.zzz"];
 NSString *todayDate = [formatter stringFromDate:[NSDate date]];
 
 
-NSDictionary *traitsDictionary = [NSDictionary dictionaryWithObjectsAndKeys:@"Esat",@"name",todayDate,@"createdAt",@"iPhone6",@"DeviceModel",@"9.2",@"iOSVersion", nil];
+NSDictionary *traitsDictionary = [NSDictionary dictionaryWithObjectsAndKeys:@"John",@"name",todayDate,@"createdAt",@"iPhone6",@"DeviceModel",@"9.2",@"iOSVersion", nil];
 
-[[SatisMeter sharedInstance] identifyUserWithUserId:@"005" writeKey:@"6bBd6aAtcdBVSZoY" andTraitsDictionary:traitsDictionary];
+[[SatisMeter sharedInstance] identifyUserWithUserId:@"005" writeKey:@"3Bd6aAtcdBVSZoY" andTraitsDictionary:traitsDictionary];
 
-return YES;
-
-}
 ```
+
 At the class where you want to show the Satis Rate view write down this piece of code:
 
 ```objective-c
@@ -57,9 +56,8 @@ if ([[SatisMeter sharedInstance] isReady]) {
 
 ## Author
 
-Satis Meter, satismeter.com
+Satis Meter, https://satismeter.com/
 
 ## License
 
 SatisMeter is available under the MIT license. See the LICENSE file for more info.
-
