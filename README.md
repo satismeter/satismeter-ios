@@ -12,7 +12,6 @@ SatisMeter is mobile and web platform for collecting customer feedback, based on
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
- 
  - iOS 7.1+
 
 
@@ -38,25 +37,23 @@ NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
 [formatter setDateFormat:@"yyyy-MM-dd HH:mm:ss.zzz"];
 NSString *todayDate = [formatter stringFromDate:[NSDate date]];
 
-
 NSDictionary *traitsDictionary = [NSDictionary dictionaryWithObjectsAndKeys:@"John",@"name",todayDate,@"createdAt",@"iPhone6",@"DeviceModel",@"9.2",@"iOSVersion", nil];
 
 [[SatisMeter sharedInstance] identifyUserWithUserId:@"005" writeKey:@"3Bd6aAtcdBVSZoY" andTraitsDictionary:traitsDictionary];
 
 ```
 
-At the class where you want to show the Satis Rate view write down this piece of code:
+At the class where you want to show the Satis Rate View, write down this piece of code:
 
 ```objective-c
-
 if ([[SatisMeter sharedInstance] isReady]) {
-[[SatisMeter sharedInstance] showSatisMeterViewInViewController:self];
+  [[SatisMeter sharedInstance] showSatisMeterViewInViewController:self];
 }
 ```
 
 ## Author
 
-Satis Meter, https://satismeter.com/
+Satis Meter, https://satismeter.com
 
 ## License
 
