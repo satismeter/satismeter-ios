@@ -1,0 +1,14 @@
+PODS:
+  - SatisMeter (0.1.0)
+
+DEPENDENCIES:
+  - SatisMeter (from `../`)
+
+EXTERNAL SOURCES:
+  SatisMeter:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SatisMeter: 0490a7084361f598c3579387339304dd270e9eca
+
+COCOAPODS: 0.39.0
