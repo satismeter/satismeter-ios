@@ -1,4 +1,3 @@
-# satismeter-ios
 # SatisMeter
 
 [![CI Status](http://img.shields.io/travis/Arben Pnishi/SatisMeter.svg?style=flat)](https://travis-ci.org/Arben Pnishi/SatisMeter)
@@ -28,8 +27,33 @@ it, simply add the following line to your Podfile:
 pod "SatisMeter"
 ```
 
+```objective-c
 #import <APPod/SatisMeter.h>
 
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+// Override point for customization after application launch.
+NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+[formatter setDateFormat:@"yyyy-MM-dd HH:mm:ss.zzz"];
+NSString *todayDate = [formatter stringFromDate:[NSDate date]];
+
+
+NSDictionary *traitsDictionary = [NSDictionary dictionaryWithObjectsAndKeys:@"Esat",@"name",todayDate,@"createdAt",@"iPhone6",@"DeviceModel",@"9.2",@"iOSVersion", nil];
+
+[[SatisMeter sharedInstance] identifyUserWithUserId:@"005" writeKey:@"6bBd6aAtcdBVSZoY" andTraitsDictionary:traitsDictionary];
+
+return YES;
+
+}
+```
+At the class where you want to show the Satis Rate view write down this piece of code:
+
+```objective-c
+
+if ([[SatisMeter sharedInstance] isReady]) {
+[[SatisMeter sharedInstance] showSatisMeterViewInViewController:self];
+}
+```
 
 ## Author
 
@@ -38,3 +62,4 @@ Satis Meter, satismeter.com
 ## License
 
 SatisMeter is available under the MIT license. See the LICENSE file for more info.
+
