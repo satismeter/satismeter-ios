@@ -20,7 +20,7 @@
     NSString *todayDate = [formatter stringFromDate:[NSDate date]];
     
     
-    NSDictionary *traitsDictionary = [NSDictionary dictionaryWithObjectsAndKeys:@"John",@"name",todayDate,@"createdAt",@"iPhone6",@"DeviceModel",@"9.2",@"iOSVersion", nil];
+    NSDictionary *traitsDictionary = [NSDictionary dictionaryWithObjectsAndKeys:@"Esat",@"name",todayDate,@"createdAt",@"iPhone6",@"DeviceModel",@"9.2",@"iOSVersion", nil];
     
     [[SatisMeter sharedInstance] identifyUserWithUserId:@"005" writeKey:@"6bBd6aAtcdBVSZoY" andTraitsDictionary:traitsDictionary];
     
