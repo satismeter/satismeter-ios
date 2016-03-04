@@ -7,12 +7,23 @@
 //
 
 #import "SMAppDelegate.h"
+#import <SatisMeter/SatisMeter.h>
 
 @implementation SMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    [formatter setDateFormat:@"yyyy-MM-dd HH:mm:ss.zzz"];
+    NSString *todayDate = [formatter stringFromDate:[NSDate date]];
+    
+    
+    NSDictionary *traitsDictionary = [NSDictionary dictionaryWithObjectsAndKeys:@"John",@"name",todayDate,@"createdAt",@"iPhone6",@"DeviceModel",@"9.2",@"iOSVersion", nil];
+    
+    [[SatisMeter sharedInstance] identifyUserWithUserId:@"005" writeKey:@"6bBd6aAtcdBVSZoY" andTraitsDictionary:traitsDictionary];
+    
     return YES;
 }
 

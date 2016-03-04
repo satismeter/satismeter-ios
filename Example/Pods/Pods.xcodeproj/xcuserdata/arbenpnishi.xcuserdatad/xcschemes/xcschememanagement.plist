@@ -19,30 +19,20 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>SatisMeter.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1B93F11E255774781751438C6E191B0B</key>
+		<key>12FD3E16B58E4428DFF31756854EFCCF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4F5BC86DC189DD62715D52DA80F103C1</key>
+		<key>B4CBE910C1DEB5FA2B056E7532B086DE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A3705A7854CE687BCA684C0417F37EE6</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F2CCEC217C754EBEEAD1D6B570927AF0</key>
+		<key>CB906FC442D6CEC765CBA19F92B09F59</key>
 		<dict>
 			<key>primary</key>
 			<true/>
