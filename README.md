@@ -53,7 +53,7 @@ if ([[SatisMeter sharedInstance] isReady]) {
 
 ## Author
 
-Satis Meter, https://satismeter.com
+SatisMeter, https://satismeter.com
 
 ## License
 
