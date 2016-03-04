@@ -1,4 +1,4 @@
-# SatisMeter
+# SatisMeter iOS SDK
 
 [![CI Status](http://img.shields.io/travis/Arben Pnishi/SatisMeter.svg?style=flat)](https://travis-ci.org/Arben Pnishi/SatisMeter)
 [![Version](https://img.shields.io/cocoapods/v/SatisMeter.svg?style=flat)](http://cocoapods.org/pods/SatisMeter)
@@ -57,4 +57,4 @@ SatisMeter, https://satismeter.com
 
 ## License
 
-SatisMeter is available under the MIT license. See the LICENSE file for more info.
+satismeter-ios SDK is available under the MIT license. See the LICENSE file for more info.
