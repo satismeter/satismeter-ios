@@ -27,7 +27,6 @@
     // Dispose of any resources that can be recreated.
 }
 - (IBAction)trySatisMeter:(id)sender {
-    NSLog(@"isReady:%d", [SatisMeter sharedInstance].shouldShowSatisMeterOnActive);
     [[SatisMeter sharedInstance] showSatisMeterViewInViewController:self];
 }
 

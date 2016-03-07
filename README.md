@@ -40,7 +40,7 @@ NSString *todayDate = [formatter stringFromDate:[NSDate date]];
 NSDictionary *traitsDictionary = [NSDictionary dictionaryWithObjectsAndKeys:@"Esat",@"name",todayDate,@"createdAt",@"iPhone6",@"DeviceModel",@"9.2",@"iOSVersion", nil];
 
 SatisMeter *sm = [SatisMeter sharedInstance];
-sm.shouldShowSatisMeterOnActive=NO;
+sm.shouldShowSatisMeterOnActive = NO;
 [sm identifyUserWithUserId:@"005" writeKey:@"Mx3RPRM1IaYltrBQ" andTraitsDictionary:traitsDictionary];
 //[[SatisMeter sharedInstance]identifyUserWithUserId:@"005" writeKey:@"Mx3RPRM1IaYltrBQ" andTraitsDictionary:traitsDictionary andServerUrl:@"http://app.satismeter.com"];
 

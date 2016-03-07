@@ -22,7 +22,7 @@
     NSDictionary *traitsDictionary = [NSDictionary dictionaryWithObjectsAndKeys:@"Esat",@"name",todayDate,@"createdAt",@"iPhone6",@"DeviceModel",@"9.2",@"iOSVersion", nil];
     
     SatisMeter *sm = [SatisMeter sharedInstance];
-    sm.shouldShowSatisMeterOnActive=NO;
+    sm.shouldShowSatisMeterOnActive = YES;
     [sm identifyUserWithUserId:@"005" writeKey:@"Mx3RPRM1IaYltrBQ" andTraitsDictionary:traitsDictionary];
     //[[SatisMeter sharedInstance]identifyUserWithUserId:@"005" writeKey:@"Mx3RPRM1IaYltrBQ" andTraitsDictionary:traitsDictionary andServerUrl:@"http://app.satismeter.com"];
     
