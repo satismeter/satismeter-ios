@@ -26,8 +26,11 @@
 /// This is the authentication method and needs to be called before any other method. Parameter 'traits' can be valued by your preferences
 -(void)identifyUserWithUserId:(NSString*)Id writeKey:(NSString*)writeKey andTraitsDictionary:(NSDictionary*)traits;
 
-/// Returns YES if the SatisMeterView is ready to be displayed.
-@property BOOL isReady;
+/// This is used in case server url needs to be modified
+-(void)identifyUserWithUserId:(NSString*)Id writeKey:(NSString*)writeKey andTraitsDictionary:(NSDictionary*)traits andServerUrl:(NSString*)serverUrl;
+
+/// The default value is YES, if you want to show SatisMeter view manually then set it NO
+@property BOOL shouldShowSatisMeterOnActive;
 
 /// Method called to show the Satis Rate view
 -(void) showSatisMeterViewInViewController:(UIViewController *)viewController;

@@ -19,10 +19,12 @@
     [formatter setDateFormat:@"yyyy-MM-dd HH:mm:ss.zzz"];
     NSString *todayDate = [formatter stringFromDate:[NSDate date]];
     
-    
     NSDictionary *traitsDictionary = [NSDictionary dictionaryWithObjectsAndKeys:@"Esat",@"name",todayDate,@"createdAt",@"iPhone6",@"DeviceModel",@"9.2",@"iOSVersion", nil];
     
-    [[SatisMeter sharedInstance] identifyUserWithUserId:@"005" writeKey:@"6bBd6aAtcdBVSZoY" andTraitsDictionary:traitsDictionary];
+    SatisMeter *sm = [SatisMeter sharedInstance];
+    sm.shouldShowSatisMeterOnActive=NO;
+    [sm identifyUserWithUserId:@"005" writeKey:@"Mx3RPRM1IaYltrBQ" andTraitsDictionary:traitsDictionary];
+    //[[SatisMeter sharedInstance]identifyUserWithUserId:@"005" writeKey:@"Mx3RPRM1IaYltrBQ" andTraitsDictionary:traitsDictionary andServerUrl:@"http://app.satismeter.com"];
     
     return YES;
 }

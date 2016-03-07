@@ -9,7 +9,7 @@
 #import "SMViewController.h"
 #import <SatisMeter/SatisMeter.h>
 
-@interface SMViewController ()
+@interface SMViewController ()<SatisMeterCoreDelegate>
 
 @end
 
@@ -27,10 +27,14 @@
     // Dispose of any resources that can be recreated.
 }
 - (IBAction)trySatisMeter:(id)sender {
-    NSLog(@"isReady:%d", [SatisMeter sharedInstance].isReady);
-    if ([[SatisMeter sharedInstance] isReady]) {
-        [[SatisMeter sharedInstance] showSatisMeterViewInViewController:self];
-    }
+    NSLog(@"isReady:%d", [SatisMeter sharedInstance].shouldShowSatisMeterOnActive);
+    [[SatisMeter sharedInstance] showSatisMeterViewInViewController:self];
 }
 
+-(void)SatisMeterViewDidShow{
+    NSLog(@"SatisMeterViewDidShow");
+}
+-(void)SatisMeterViewDidDismiss{
+    NSLog(@"SatisMeterViewDidDismiss");
+}
 @end
