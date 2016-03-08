@@ -49,9 +49,7 @@ sm.shouldShowSatisMeterOnActive = NO;
 At the class where you want to show the Satis Rate View, write down this piece of code:
 
 ```objective-c
-if ([[SatisMeter sharedInstance] isReady]) {
   [[SatisMeter sharedInstance] showSatisMeterViewInViewController:self];
-}
 ```
 
 ## Author
