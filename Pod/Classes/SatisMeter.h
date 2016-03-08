@@ -32,7 +32,7 @@
 /// The default value is YES, if you want to show SatisMeter view manually then set it NO
 @property BOOL shouldShowSatisMeterOnActive;
 
-/// Method called to show the Satis Rate view
--(void) showSatisMeterViewInViewController:(UIViewController *)viewController;
+/// Method called to show the Satis Meter view
+-(void) showSatisMeterView;
 
 @end

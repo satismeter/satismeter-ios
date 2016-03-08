@@ -46,10 +46,10 @@ sm.shouldShowSatisMeterOnActive = NO;
 
 ```
 
-At the class where you want to show the Satis Rate View, write down this piece of code:
+At the class where you want to show the Satis Meter View, write down this piece of code:
 
 ```objective-c
-  [[SatisMeter sharedInstance] showSatisMeterViewInViewController:self];
+  [[SatisMeter sharedInstance] showSatisMeterView];
 ```
 
 ## Author

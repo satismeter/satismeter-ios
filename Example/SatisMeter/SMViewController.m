@@ -27,7 +27,7 @@
     // Dispose of any resources that can be recreated.
 }
 - (IBAction)trySatisMeter:(id)sender {
-    [[SatisMeter sharedInstance] showSatisMeterViewInViewController:self];
+    [[SatisMeter sharedInstance] showSatisMeterView];
 }
 
 -(void)SatisMeterViewDidShow{
