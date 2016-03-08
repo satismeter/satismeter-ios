@@ -23,7 +23,7 @@
 +(instancetype) sharedInstance;
 @property (nonatomic,weak) id delegate;
 
-/// This is the authentication method and needs to be called before any other method. Parameter 'traits' can be valued by your preferences
+/// This is the authentication method and needs to be called before any other method. Parameter "traits" can be valued by your preferences
 -(void)identifyUserWithUserId:(NSString*)Id writeKey:(NSString*)writeKey andTraitsDictionary:(NSDictionary*)traits;
 
 /// This is used in case server url needs to be modified
