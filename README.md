@@ -7,13 +7,8 @@
 
 SatisMeter is mobile and web platform for collecting customer feedback, based on Net Promoter Score. This package contains a survey widget that can be easily integrated into any iOS application.
 
-## Usage
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
 ## Requirements
  - iOS 7.1+
-
 
 ## Installation
 
@@ -24,6 +19,8 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "SatisMeter"
 ```
+
+## Usage
 
 Import header
 ```objective-c
