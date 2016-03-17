@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B03F83F1C889B0300A5DCBD /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B03F83E1C889B0300A5DCBD /* Launch Screen.storyboard */; };
+		3B84BFCC1C9AF91600D2FB72 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B84BFCB1C9AF91600D2FB72 /* Launch Screen.storyboard */; };
 		401625849D867C5C72F5575B /* Pods_SatisMeter_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EEE1A13DF1E8C7EC6C4E7B3 /* Pods_SatisMeter_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -41,7 +41,7 @@
 		1506D92C1BBCD89DE000709D /* Pods-SatisMeter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SatisMeter_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SatisMeter_Example/Pods-SatisMeter_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2EEE1A13DF1E8C7EC6C4E7B3 /* Pods_SatisMeter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SatisMeter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3454E8056D9313B1AE87ADE1 /* Pods_SatisMeter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SatisMeter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B03F83E1C889B0300A5DCBD /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		3B84BFCB1C9AF91600D2FB72 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		555741D458E940812555AC0F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SatisMeter_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SatisMeter_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -135,7 +135,7 @@
 				6003F59C195388D20070C39A /* SMAppDelegate.h */,
 				6003F59D195388D20070C39A /* SMAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				3B03F83E1C889B0300A5DCBD /* Launch Screen.storyboard */,
+				3B84BFCB1C9AF91600D2FB72 /* Launch Screen.storyboard */,
 				6003F5A5195388D20070C39A /* SMViewController.h */,
 				6003F5A6195388D20070C39A /* SMViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
@@ -281,7 +281,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
-				3B03F83F1C889B0300A5DCBD /* Launch Screen.storyboard in Resources */,
+				3B84BFCC1C9AF91600D2FB72 /* Launch Screen.storyboard in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -516,10 +516,10 @@
 			baseConfigurationReference = 0911A4E7AF6F606A9EB402EC /* Pods-SatisMeter_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SatisMeter/SatisMeter-Prefix.pch";
 				INFOPLIST_FILE = "SatisMeter/SatisMeter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -533,10 +533,10 @@
 			baseConfigurationReference = 1506D92C1BBCD89DE000709D /* Pods-SatisMeter_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SatisMeter/SatisMeter-Prefix.pch";
 				INFOPLIST_FILE = "SatisMeter/SatisMeter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -15,16 +15,13 @@
 {
     // Override point for customization after application launch.
     
-    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
-    [formatter setDateFormat:@"yyyy-MM-dd HH:mm:ss.zzz"];
-    NSString *todayDate = [formatter stringFromDate:[NSDate date]];
+    NSDictionary *traitsDictionary = [NSDictionary dictionaryWithObjectsAndKeys:
+                                      @"John" ,@"name",
+                                      @"Plan", @"Gold",
+                                      @"2016-12-31T23:00:00.000Z", @"createdAt",
+                                      nil];
     
-    NSDictionary *traitsDictionary = [NSDictionary dictionaryWithObjectsAndKeys:@"Esat",@"name",todayDate,@"createdAt",@"iPhone6",@"DeviceModel",@"9.2",@"iOSVersion", nil];
-    
-    SatisMeter *sm = [SatisMeter sharedInstance];
-    sm.shouldShowSatisMeterOnActive = YES;
-    [sm identifyUserWithUserId:@"005" writeKey:@"Mx3RPRM1IaYltrBQ" andTraitsDictionary:traitsDictionary];
-    //[[SatisMeter sharedInstance]identifyUserWithUserId:@"005" writeKey:@"Mx3RPRM1IaYltrBQ" andTraitsDictionary:traitsDictionary andServerUrl:@"http://app.satismeter.com"];
+    [[SatisMeter sharedInstance] identifyUserWithUserId:@"abc0467" writeKey:@"K7eMIPEXyPMlG7fu" andTraitsDictionary:traitsDictionary];
     
     return YES;
 }
