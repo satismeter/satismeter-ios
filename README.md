@@ -33,17 +33,14 @@ Import header
 In your app delegate inside didFinishLaunchingWithOptions type this:
 
 ```objective-c
-    NSDictionary *traitsDictionary = [NSDictionary dictionaryWithObjectsAndKeys:
-                                      @"John" ,@"name",
-                                      @"Plan", @"Gold",
-                                      @"2016-12-31T23:00:00.000Z", @"createdAt",
-                                      nil];
-```
+NSDictionary *traitsDictionary = [NSDictionary dictionaryWithObjectsAndKeys:
+                                 @"John" ,@"name",
+                                 @"Plan", @"Gold",
+                                 @"2016-12-31T23:00:00.000Z", @"createdAt",
+                                 nil];
 
-At the class where you want to show the Satis Meter View, write down this piece of code:
+[[SatisMeter sharedInstance] identifyUserWithUserId:@"abc0467" writeKey:@"K7eMIPEXyPMlG7fu" andTraitsDictionary:traitsDictionary];
 
-```objective-c
-  [[SatisMeter sharedInstance] showSatisMeterView];
 ```
 
 ## Author
