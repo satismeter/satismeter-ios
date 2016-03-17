@@ -33,17 +33,11 @@ Import header
 In your app delegate inside didFinishLaunchingWithOptions type this:
 
 ```objective-c
-NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
-[formatter setDateFormat:@"yyyy-MM-dd HH:mm:ss.zzz"];
-NSString *todayDate = [formatter stringFromDate:[NSDate date]];
-
-NSDictionary *traitsDictionary = [NSDictionary dictionaryWithObjectsAndKeys:@"Esat",@"name",todayDate,@"createdAt",@"iPhone6",@"DeviceModel",@"9.2",@"iOSVersion", nil];
-
-SatisMeter *sm = [SatisMeter sharedInstance];
-sm.shouldShowSatisMeterOnActive = NO;
-[sm identifyUserWithUserId:@"005" writeKey:@"Mx3RPRM1IaYltrBQ" andTraitsDictionary:traitsDictionary];
-//[[SatisMeter sharedInstance]identifyUserWithUserId:@"005" writeKey:@"Mx3RPRM1IaYltrBQ" andTraitsDictionary:traitsDictionary andServerUrl:@"http://app.satismeter.com"];
-
+    NSDictionary *traitsDictionary = [NSDictionary dictionaryWithObjectsAndKeys:
+                                      @"John" ,@"name",
+                                      @"Plan", @"Gold",
+                                      @"2016-12-31T23:00:00.000Z", @"createdAt",
+                                      nil];
 ```
 
 At the class where you want to show the Satis Meter View, write down this piece of code:
