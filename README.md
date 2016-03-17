@@ -31,7 +31,7 @@ In your app delegate inside didFinishLaunchingWithOptions type this:
 ```objective-c
 NSDictionary *traitsDictionary = [NSDictionary dictionaryWithObjectsAndKeys:
                                  @"James Bond" ,@"name",
-                                 @"Plan", @"Gold",
+                                 @"Gold", @"plan",
                                  @"2016-12-31T23:00:00.000Z", @"createdAt",
                                  nil];
 
