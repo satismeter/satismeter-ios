@@ -1,6 +1,6 @@
 # SatisMeter iOS SDK
 
-[![CI Status](http://img.shields.io/travis/Arben Pnishi/SatisMeter.svg?style=flat)](https://travis-ci.org/Arben Pnishi/SatisMeter)
+[![CI Status](http://img.shields.io/travis/satismeter/satismeter-ios.svg?style=flat)](https://travis-ci.org/satismeter/satismeter-ios)
 [![Version](https://img.shields.io/cocoapods/v/SatisMeter.svg?style=flat)](http://cocoapods.org/pods/SatisMeter)
 [![License](https://img.shields.io/cocoapods/l/SatisMeter.svg?style=flat)](http://cocoapods.org/pods/SatisMeter)
 [![Platform](https://img.shields.io/cocoapods/p/SatisMeter.svg?style=flat)](http://cocoapods.org/pods/SatisMeter)
