@@ -32,7 +32,7 @@ In your app delegate inside didFinishLaunchingWithOptions type this:
 NSDictionary *traitsDictionary = [NSDictionary dictionaryWithObjectsAndKeys:
                                  @"James Bond" ,@"name",
                                  @"Gold", @"plan",
-                                 @"2016-12-31T23:00:00.000Z", @"createdAt",
+                                 @"2015-11-01T00:00:00.000Z", @"createdAt",
                                  nil];
 
 [[SatisMeter sharedInstance] identifyUserWithUserId: @"007"
@@ -41,7 +41,6 @@ NSDictionary *traitsDictionary = [NSDictionary dictionaryWithObjectsAndKeys:
 ```
 
 ## Author
-
 
 SatisMeter, https://satismeter.com
 
