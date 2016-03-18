@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SatisMeter"
-  s.version          = "0.1.12"
+  s.version          = "0.1.13"
   s.summary          = "SatisMeter SDK for iOS mobile survey"
 
 # This description is used to generate tags and improve search results.

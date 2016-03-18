@@ -133,9 +133,9 @@
 			isa = PBXGroup;
 			children = (
 				6003F59C195388D20070C39A /* SMAppDelegate.h */,
-				3B7A83441C9B1C27007AAA1A /* Launch Screen.xib */,
 				6003F59D195388D20070C39A /* SMAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				3B7A83441C9B1C27007AAA1A /* Launch Screen.xib */,
 				6003F5A5195388D20070C39A /* SMViewController.h */,
 				6003F5A6195388D20070C39A /* SMViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
@@ -562,6 +562,11 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SatisMeter_Example.app/SatisMeter_Example";
@@ -582,6 +587,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SatisMeter_Example.app/SatisMeter_Example";
