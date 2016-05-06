@@ -14,7 +14,7 @@ SatisMeter is mobile and web platform for collecting customer feedback, based on
 
 ## Installation
 
-SatisMeter is available through [CocoaPods](http://cocoapods.org). To install
+SatisMeter is available through [CocoaPods](https://cocoapods.org/pods/SatisMeter). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
