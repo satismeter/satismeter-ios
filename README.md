@@ -11,6 +11,15 @@ SatisMeter is mobile and web platform for collecting customer feedback, based on
 
 ## Requirements
  - iOS 7.1+
+### Manual Installation
+
+Move to your project->Project Navigator window and Drag and Drop 'SDK' folder. Make sure that 'Copy items if needed' is checked.
+![Screenshot](https://raw.githubusercontent.com/satismeter/satismeter-ios/master/Images/Copy.png)
+## Important
+In your project, move to Build Settings and update 'Other Linked Flags' property with the following string:
+![Screenshot](https://raw.githubusercontent.com/satismeter/satismeter-ios/master/Images/lib.png)
+
+Thats it!
 
 ## Installation
 
@@ -23,11 +32,6 @@ To install using CocoaPods, add the following line to your Podfile:
 ```ruby
 pod "SatisMeter"
 ```
-
-### Manual Installation
-
-This Xcode project (You can find by path Examples/ManualInstallation) is ready to test and use. SDK is already included to this project and now you dont need to use cocoa pods. Read the information below so to know how to adapt this SDK to your needings.
-
 ## Usage
 
 ### Import header
