@@ -11,9 +11,9 @@ SatisMeter is mobile and web platform for collecting customer feedback, based on
 
 ## Requirements
  - iOS 7.1+
-### Manual Installation
+## Manual Installation
 
-Move to your project->Project Navigator window and Drag and Drop 'SDK' folder. Make sure that 'Copy items if needed' is checked.
+Move to your project->Project Navigator window and Drag and Drop 'Examples/SDK' folder. Make sure that 'Copy items if needed' is checked.
 ![Screenshot](https://raw.githubusercontent.com/satismeter/satismeter-ios/master/Images/Copy.png)
 ## Important
 In your project, move to Build Settings and update 'Other Linked Flags' property with the following string:
