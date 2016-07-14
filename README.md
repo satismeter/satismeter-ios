@@ -23,7 +23,7 @@ Move to your project->Project Navigator window and Drag and Drop 'Examples/SDK' 
 In your project, move to Build Settings and update 'Other Linked Flags' property with the following string:
 ![Screenshot](https://raw.githubusercontent.com/satismeter/satismeter-ios/master/Images/lib.png)
 
-Thats it!
+Thats it! Look at the 'Identify user' section below so to know how to use our SDK.
 
 
 ## Installation
