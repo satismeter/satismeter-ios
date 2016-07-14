@@ -24,7 +24,7 @@ To install using CocoaPods, add the following line to your Podfile:
 pod "SatisMeter"
 ```
 
-## Manual Installation
+### Manual Installation
 
 This Xcode project (You can find by path Examples/ManualInstallation) is ready to test and use. SDK is already included to this project and now you dont need to use cocoa pods. Read the information below so to know how to adapt this SDK to your needings.
 
