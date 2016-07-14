@@ -12,14 +12,21 @@ SatisMeter is mobile and web platform for collecting customer feedback, based on
 ## Requirements
  - iOS 7.1+
 
-## Installation. CocoaPods.
+## Installation
 
-SatisMeter is available through [CocoaPods](https://cocoapods.org/pods/SatisMeter). To install
-it, simply add the following line to your Podfile:
+SatisMeter is available through [CocoaPods](https://cocoapods.org/pods/SatisMeter) and Manual installation from github build.
+
+### CocoaPods
+
+To install using CocoaPods, add the following line to your Podfile:
 
 ```ruby
 pod "SatisMeter"
 ```
+
+### Manual Installation
+
+This Xcode project (You can find by path Examples/ManualInstallation) is ready to test and use. SDK is already included to this project and now you dont need to use cocoa pods. Read the information below so to know how to adapt this SDK to your needings.
 
 ## Usage
 
@@ -28,31 +35,9 @@ pod "SatisMeter"
 #import <SatisMeter/SatisMeter.h>
 ```
 
-### Identify user
-
-In your app delegate inside didFinishLaunchingWithOptions type this:
-
-```objective-c
-NSDictionary *traitsDictionary = [NSDictionary dictionaryWithObjectsAndKeys:
-                                 @"James Bond" ,@"name",
-                                 @"Gold", @"plan",
-                                 @"2015-11-01T00:00:00.000Z", @"createdAt",
-                                 nil];
-
-[[SatisMeter sharedInstance] identifyUserWithUserId: @"007"
-                             writeKey: @"K7eMIPEXyPMlG7fu"
-                             andTraitsDictionary: traitsDictionary];
-```
-
-Replace the `writeKey` with the one found in SatisMeter settings / Integrations / API Keys.
-
-Replace `user id`, `name`, etc. with the ones of the currently logged-in user.
-
-## Manual Installation.
-
-This Xcode project (You can find by path Examples/ManualInstallation) is ready to test and use. SDK is already included to this project and now you dont need to use cocoa pods. Read the information below so to know how to adapt this SDK to your needings. 
-## Registration
+### Registration
 First of all you should create your personal account in https://satismeter.com
+
 ### Identify user
 
 In your app delegate inside didFinishLaunchingWithOptions type this:
