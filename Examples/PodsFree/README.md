@@ -5,18 +5,13 @@
 
 SatisMeter is mobile and web platform for collecting customer feedback, based on Net Promoter Score. This package contains a survey widget that can be easily integrated into any iOS application.
 
-![Screenshot](https://raw.githubusercontent.com/satismeter/satismeter-ios/master/Images/iphone-satismeter.png)  
-![Screenshot](https://raw.githubusercontent.com/satismeter/satismeter-ios/master/Images/iphone-satismeter-follow-up-question.png)
+![Screenshot](https://raw.githubusercontent.com/satismeter/satismeter-ios/master/Images/iphone-satismeter.png)  ![Screenshot](https://github.com/satismeter/satismeter-ios/blob/master/Images/iphone-satismeter-follow-up-question.png)
 
 ## Requirements
  - iOS 7.1+
+
 ## Installation
-This build is ready to test and use. 
-Move to your project->Project Navigator window and Drag and Drop 'SDK' folder. Make sure that 'Copy items if needed' is checked.
-![Screenshot](https://raw.githubusercontent.com/satismeter/satismeter-ios/master/Images/Copy.png)
-## Important
-In your project, move to Build Settings and setup 'Other Linked Flags' with the following string:
-![Screenshot](https://raw.githubusercontent.com/satismeter/satismeter-ios/master/Images/lib.png)
+This build is ready to test and use. SDK is included to this project and now you dont need to use cocoa pods. Read the information below so to know how to adapt this SDK to your needings. 
 ## Registration
 First of all you should create your personal account in https://satismeter.com
 ### Identify user
