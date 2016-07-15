@@ -27,7 +27,7 @@ pod "SatisMeter"
 
 ### Manual Installation
 
-Move to your project->Project Navigator window and Drag and Drop 'Examples/SDK' folder. Make sure that 'Copy items if needed' is checked.
+Move to your project->Project Navigator window and Drag and Drop 'ManualInstallation' folder. Make sure that 'Copy items if needed' is checked.
 
 ![Screenshot](https://raw.githubusercontent.com/satismeter/satismeter-ios/master/Images/Copy.png)
 
