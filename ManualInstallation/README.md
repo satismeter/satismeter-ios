@@ -32,7 +32,7 @@ NSDictionary *traitsDictionary = [NSDictionary dictionaryWithObjectsAndKeys:
 
 [[SatisMeter sharedInstance] identifyUserWithUserId: @"007"
                              writeKey: @"K7eMIPEXyPMlG7fu"
-                             andTraitsDictionary: traitsDictionary];
+                             andTraitsDictionary: traitsDictionary forceSurvey:NO/*YES to show survey every time*/];
 ```
 
 Replace the `writeKey` with the one found in SatisMeter settings / Integrations / API Keys.

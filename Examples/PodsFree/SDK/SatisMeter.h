@@ -24,16 +24,24 @@
 
 @property BOOL shouldShowSatisMeterOnActive;
 @property BOOL isShown;
+@property(nonatomic, strong) UIColor *mainColor;
+@property(nonatomic, strong) NSString *writeKey;
+@property(nonatomic, strong) NSString *userId;
+@property(nonatomic, strong) NSDictionary *translationWords;
+@property(nonatomic, strong) NSDictionary *widgetDictionary;
+@property(nonatomic, strong) NSString *serverUrl;
+@property BOOL serviceRunning;
 
+
+@property BOOL shouldShowPoweredBy;
+@property BOOL isReady;
 
 
 /// identify user with user_id, writeKey and traits dictionary if applicable
--(void)identifyUserWithUserId:(NSString*)Id writeKey:(NSString*)writeKey andTraitsDictionary:(NSDictionary*)traits;
+-(void)identifyUserWithUserId:(NSString*)Id writeKey:(NSString*)writeKey andTraitsDictionary:(NSDictionary*)traits forceSurvey:(BOOL)forceSurvey;
 /// identify user with user_id, writeKey, traits dictionary if applicable and custom server url
--(void)identifyUserWithUserId:(NSString*)Id writeKey:(NSString*)writeKey andTraitsDictionary:(NSDictionary*)traits andServerUrl:(NSString*)serverUrl;
-
-
+-(void)identifyUserWithUserId:(NSString*)Id writeKey:(NSString*)writeKey andTraitsDictionary:(NSDictionary*)traits forceSurvey:(BOOL)forceSurvey andServerUrl:(NSString*)serverUrl;
 /// show satismeter view
--(void) showSatisMeterView;
-
+-(void) showSatisMeterView:(BOOL)forceSurvey;
+- (UIColor *)colorFromHexString:(NSString *)hexString;
 @end

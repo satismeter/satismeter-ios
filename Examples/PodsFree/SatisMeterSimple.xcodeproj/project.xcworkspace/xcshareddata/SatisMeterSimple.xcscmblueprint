@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6E480F54154DA7674BDA74C0A6F830CB3BC1F95B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6F3E6DE3B8DCF56CEBDDCF61B715774516431DEA" : 0,
+    "6E480F54154DA7674BDA74C0A6F830CB3BC1F95B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7D68F1FF-D532-4648-A940-7CD878E69115",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6F3E6DE3B8DCF56CEBDDCF61B715774516431DEA" : "",
+    "6E480F54154DA7674BDA74C0A6F830CB3BC1F95B" : "satismeter-ios-example\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SatisMeterSimple",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Examples\/PodsFree\/SatisMeterSimple.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/satismeter\/satismeter-ios",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6E480F54154DA7674BDA74C0A6F830CB3BC1F95B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/Engbub\/wb-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6F3E6DE3B8DCF56CEBDDCF61B715774516431DEA"
+    }
+  ]
+}
