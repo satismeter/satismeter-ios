@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B63590181D379E4400DFCB4C /* libSatisMeter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B63590151D379E4400DFCB4C /* libSatisMeter.a */; };
-		B63590191D379E4400DFCB4C /* SatisMeterResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B63590171D379E4400DFCB4C /* SatisMeterResources.bundle */; };
+		B65F5A611D3E79210005CEAC /* libSatisMeter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B65F5A5E1D3E79210005CEAC /* libSatisMeter.a */; };
+		B65F5A621D3E79210005CEAC /* SatisMeterResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B65F5A601D3E79210005CEAC /* SatisMeterResources.bundle */; };
 		B66A74B81D35164300B2EE54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B66A74B71D35164300B2EE54 /* main.m */; };
 		B66A74BB1D35164300B2EE54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B66A74BA1D35164300B2EE54 /* AppDelegate.m */; };
 		B66A74BE1D35164300B2EE54 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B66A74BD1D35164300B2EE54 /* ViewController.m */; };
@@ -18,9 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B63590151D379E4400DFCB4C /* libSatisMeter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSatisMeter.a; sourceTree = "<group>"; };
-		B63590161D379E4400DFCB4C /* SatisMeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SatisMeter.h; sourceTree = "<group>"; };
-		B63590171D379E4400DFCB4C /* SatisMeterResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SatisMeterResources.bundle; sourceTree = "<group>"; };
+		B65F5A5E1D3E79210005CEAC /* libSatisMeter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSatisMeter.a; sourceTree = "<group>"; };
+		B65F5A5F1D3E79210005CEAC /* SatisMeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SatisMeter.h; sourceTree = "<group>"; };
+		B65F5A601D3E79210005CEAC /* SatisMeterResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SatisMeterResources.bundle; sourceTree = "<group>"; };
 		B66A74B31D35164300B2EE54 /* SatisMeterSimple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SatisMeterSimple.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B66A74B71D35164300B2EE54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B66A74B91D35164300B2EE54 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B63590181D379E4400DFCB4C /* libSatisMeter.a in Frameworks */,
+				B65F5A611D3E79210005CEAC /* libSatisMeter.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,9 +48,9 @@
 		B63590141D379E4400DFCB4C /* SDK */ = {
 			isa = PBXGroup;
 			children = (
-				B63590151D379E4400DFCB4C /* libSatisMeter.a */,
-				B63590161D379E4400DFCB4C /* SatisMeter.h */,
-				B63590171D379E4400DFCB4C /* SatisMeterResources.bundle */,
+				B65F5A5E1D3E79210005CEAC /* libSatisMeter.a */,
+				B65F5A5F1D3E79210005CEAC /* SatisMeter.h */,
+				B65F5A601D3E79210005CEAC /* SatisMeterResources.bundle */,
 			);
 			path = SDK;
 			sourceTree = "<group>";
@@ -155,7 +155,7 @@
 			files = (
 				B66A74C61D35164300B2EE54 /* LaunchScreen.storyboard in Resources */,
 				B66A74C31D35164300B2EE54 /* Assets.xcassets in Resources */,
-				B63590191D379E4400DFCB4C /* SatisMeterResources.bundle in Resources */,
+				B65F5A621D3E79210005CEAC /* SatisMeterResources.bundle in Resources */,
 				B66A74C11D35164300B2EE54 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -31,17 +31,18 @@
 @property(nonatomic, strong) NSDictionary *widgetDictionary;
 @property(nonatomic, strong) NSString *serverUrl;
 @property BOOL serviceRunning;
-
+@property BOOL forceSurvey;
 
 @property BOOL shouldShowPoweredBy;
 @property BOOL isReady;
 
 
 /// identify user with user_id, writeKey and traits dictionary if applicable
--(void)identifyUserWithUserId:(NSString*)Id writeKey:(NSString*)writeKey andTraitsDictionary:(NSDictionary*)traits forceSurvey:(BOOL)forceSurvey;
+-(void)identifyUserWithUserId:(NSString*)Id writeKey:(NSString*)writeKey andTraitsDictionary:(NSDictionary*)traits;
 /// identify user with user_id, writeKey, traits dictionary if applicable and custom server url
--(void)identifyUserWithUserId:(NSString*)Id writeKey:(NSString*)writeKey andTraitsDictionary:(NSDictionary*)traits forceSurvey:(BOOL)forceSurvey andServerUrl:(NSString*)serverUrl;
+-(void)identifyUserWithUserId:(NSString*)Id writeKey:(NSString*)writeKey andTraitsDictionary:(NSDictionary*)traits andServerUrl:(NSString*)serverUrl;
 /// show satismeter view
--(void) showSatisMeterView:(BOOL)forceSurvey;
+-(void) showSatisMeterView;
+-(void)forceSurvey:(BOOL)force;
 - (UIColor *)colorFromHexString:(NSString *)hexString;
 @end

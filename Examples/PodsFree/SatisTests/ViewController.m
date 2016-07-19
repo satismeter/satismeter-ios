@@ -19,7 +19,7 @@
    
 }
 - (IBAction)trySatisMeter:(id)sender {
-    [[SatisMeter sharedInstance] showSatisMeterView:YES];
+    [[SatisMeter sharedInstance] showSatisMeterView];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

@@ -16,6 +16,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
    
     NSDictionary *traitsDictionary = [NSDictionary dictionaryWithObjectsAndKeys:
                                       @"James" ,@"name",
@@ -23,7 +24,7 @@
                                       @"2016-05-31T23:00:00.000Z", @"createdAt",
                                       nil];
     
-    [[SatisMeter sharedInstance] identifyUserWithUserId:@"bondJamesBond" writeKey:@"vCT0TbvLF2XpDQ7t" andTraitsDictionary:traitsDictionary forceSurvey:YES];
+    [[SatisMeter sharedInstance] identifyUserWithUserId:@"gbondJamesBond" writeKey:@"vCT0TbvLF2XpDQ7t" andTraitsDictionary:traitsDictionary];
     
     return YES;
 }
