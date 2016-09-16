@@ -25,6 +25,9 @@
 @property BOOL shouldShowSatisMeterOnActive;
 @property BOOL isShown;
 @property(nonatomic, strong) UIColor *mainColor;
+@property(nonatomic, strong) UIColor *foregroundColor;
+@property(nonatomic, strong) UIColor *backgroundColor;
+@property BOOL showNumbers;
 @property(nonatomic, strong) NSString *writeKey;
 @property(nonatomic, strong) NSString *userId;
 @property(nonatomic, strong) NSDictionary *translationWords;
@@ -43,6 +46,10 @@
 -(void)identifyUserWithUserId:(NSString*)Id writeKey:(NSString*)writeKey andTraitsDictionary:(NSDictionary*)traits andServerUrl:(NSString*)serverUrl;
 /// show satismeter view
 -(void) showSatisMeterView;
+
+#pragma Mark -
+#pragma Mark - For test purpose only
+
 -(void)forceSurvey:(BOOL)force;
-- (UIColor *)colorFromHexString:(NSString *)hexString;
+
 @end
