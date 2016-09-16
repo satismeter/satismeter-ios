@@ -18,10 +18,10 @@
     NSDictionary *traitsDictionary = [NSDictionary dictionaryWithObjectsAndKeys:
                                       @"John" ,@"name",
                                       @"Plan", @"Gold",
-                                      @"2016-12-31T23:00:00.000Z", @"createdAt",
+                                      @"2016-06-31T23:00:00.000Z", @"createdAt",
                                       nil];
     
-    [[SatisMeter sharedInstance] identifyUserWithUserId:@"abc0467" writeKey:@"K7eMIPEXyPMlG7fu" andTraitsDictionary:traitsDictionary ];
+    [[SatisMeter sharedInstance] identifyUserWithUserId:@"12abc0467" writeKey:@"K7eMIPEXyPMlG7fu" andTraitsDictionary:traitsDictionary ];
     
     return YES;
 }
