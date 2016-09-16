@@ -24,7 +24,7 @@
                                       @"2016-06-31T23:00:00.000Z", @"createdAt",
                                       nil];
     
-    [[SatisMeter sharedInstance] identifyUserWithUserId:@"JamesBond" writeKey:@"vCT0TbvLF2XpDQ7t" andTraitsDictionary:traitsDictionary];
+    [[SatisMeter sharedInstance] identifyUserWithUserId:@"kyesBond" writeKey:@"vCT0TbvLF2XpDQ7t" andTraitsDictionary:traitsDictionary];
     
     return YES;
 }

@@ -25,6 +25,8 @@
 @property BOOL shouldShowSatisMeterOnActive;
 @property BOOL isShown;
 @property(nonatomic, strong) UIColor *mainColor;
+@property(nonatomic, strong) UIColor *foregroundColor;
+@property(nonatomic, strong) UIColor *backgroundColor;
 @property BOOL showNumbers;
 @property(nonatomic, strong) NSString *writeKey;
 @property(nonatomic, strong) NSString *userId;
