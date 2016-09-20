@@ -1,5 +1,5 @@
 # 0.2.5
-- Remove noicy log messages
+- Remove noisy log messages
 
 # 0.2.4
 - Hide keyboard when survey is shown
