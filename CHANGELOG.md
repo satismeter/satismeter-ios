@@ -1,5 +1,12 @@
+# 0.2.4
+- Hide keyboard when survey is shown
+- Bugfix: Clear CFBundleExecutable setting in SatisMeter's resource bundle
+- Support for custom background and foreground colors
+- Give a way to force showing a survey (for testing purposes)
+- Show numbers on rating bullets based on `showNumbers` setting retrieved from API
+
 # 0.1.21
- - Bugfix: iOS 8 crash when rotating device
+- Bugfix: iOS 8 crash when rotating device
 
 # 0.1.20
 
