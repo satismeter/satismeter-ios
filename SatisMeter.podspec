@@ -8,14 +8,14 @@
 
 Pod::Spec.new do |s|
   s.name             = "SatisMeter"
-  s.version          = "0.2.5"
+  s.version          = "0.2.6"
   s.summary          = "SatisMeter SDK for iOS mobile survey"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
+#   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description      = <<-DESC
         SatisMeter is mobile and web platform for collecting customer feedback, based on Net Promoter Score. This package contains a survey widget that can be easily integrated into any iOS application.
                        DESC

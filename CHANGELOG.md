@@ -1,3 +1,6 @@
+# 0.2.6
+- Add .framework distribution format
+
 # 0.2.5
 - Remove noisy log messages
 
