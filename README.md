@@ -29,6 +29,10 @@ pod "SatisMeter"
 
 See [manual installation instructions](https://github.com/satismeter/satismeter-ios/tree/master/ManualInstallation).
 
+### Installation using .framework build
+
+See [.framework installation instructions](https://github.com/satismeter/satismeter-ios/tree/master/Framework).
+
 ## Usage
 
 ### Import header
