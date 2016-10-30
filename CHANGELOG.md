@@ -1,3 +1,6 @@
+# 0.2.7
+- Fix overlay size on iPads
+
 # 0.2.6
 - Add .framework distribution format
 
