@@ -1,3 +1,6 @@
+# 0.2.8
+- Identify device type and OS
+
 # 0.2.7
 - Fix overlay size on iPads
 

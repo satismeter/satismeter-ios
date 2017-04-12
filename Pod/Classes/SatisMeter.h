@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#define SYSTEM_VERSION_LESS_THAN(v) ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
 @protocol SatisMeterCoreDelegate <NSObject>
 @optional
 /// delegate method when the view is shown
@@ -30,12 +31,14 @@
 @property BOOL showNumbers;
 @property(nonatomic, strong) NSString *writeKey;
 @property(nonatomic, strong) NSString *userId;
+@property(nonatomic, strong) NSDictionary *traits;
 @property(nonatomic, strong) NSDictionary *translationWords;
 @property(nonatomic, strong) NSDictionary *widgetDictionary;
 @property(nonatomic, strong) NSString *serverUrl;
 @property BOOL serviceRunning;
 @property BOOL forceSurvey;
-
++ (BOOL) isiPad;
++(NSDictionary*)systemData;
 @property BOOL shouldShowPoweredBy;
 @property BOOL isReady;
 
