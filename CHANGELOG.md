@@ -1,3 +1,6 @@
+# 0.2.9
+- Enable bitcode (issue #15)
+
 # 0.2.8
 - Identify device type and OS
 
