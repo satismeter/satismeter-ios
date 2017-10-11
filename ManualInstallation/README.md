@@ -10,8 +10,8 @@ SatisMeter is mobile and web platform for collecting customer feedback, based on
 ## Requirements
  - iOS 7.1+
 ## Installation
-This build is ready to test and use. 
-Move to your project->Project Navigator window and Drag and Drop 'SDK' folder. Make sure that 'Copy items if needed' is checked.
+This build is ready to test and use.
+Move to your project->Project Navigator window and Drag and Drop [SatisMeter](SatisMeter/) folder. Make sure that 'Copy items if needed' is checked.
 ![Screenshot](https://raw.githubusercontent.com/satismeter/satismeter-ios/master/Images/Copy.png)
 ## Important
 In your project, move to Build Settings and setup 'Other Linked Flags' with the following string:
@@ -31,7 +31,7 @@ NSDictionary *traitsDictionary = [NSDictionary dictionaryWithObjectsAndKeys:
 
 [[SatisMeter sharedInstance] identifyUserWithUserId: @"007"
                              writeKey: @"K7eMIPEXyPMlG7fu"
-                             andTraitsDictionary: traitsDictionary forceSurvey:NO/*YES to show survey every time*/];
+                             andTraitsDictionary: traitsDictionary];
 ```
 
 Replace the `writeKey` with the one found in SatisMeter settings / Integrations / API Keys.
