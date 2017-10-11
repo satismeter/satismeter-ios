@@ -14,7 +14,10 @@ This build is ready to test and use.
 Move to your project->Project Navigator window and Drag and Drop [SatisMeter](SatisMeter/) folder. Make sure that 'Copy items if needed' is checked.
 ![Screenshot](https://raw.githubusercontent.com/satismeter/satismeter-ios/master/Images/Copy.png)
 ## Important
-In your project, move to Build Settings and setup 'Other Linked Flags' with the following string:
+In your project, move to Build Settings and setup 'Other Linker Flags' with the following string:
+```
+-ObjC -l"SatisMeter" -framework "UIKit"
+```
 ![Screenshot](https://raw.githubusercontent.com/satismeter/satismeter-ios/master/Images/lib.png)
 ## Registration
 First of all you should create your personal account in https://satismeter.com
