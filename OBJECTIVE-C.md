@@ -3,9 +3,6 @@
 #import <SatisMeter/SatisMeter.h>
 ```
 
-### Registration
-First of all you should create your personal account in https://satismeter.com
-
 ### Identify user
 
 In your app delegate inside didFinishLaunchingWithOptions type this:
