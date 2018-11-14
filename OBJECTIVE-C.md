@@ -1,9 +1,15 @@
-### Import header
+# Set up SatisMeter with Objective-C
+
+## Install SatisMeter SDK
+
+See [Readme](README.md) for details.
+
+## Import header
 ```objective-c
 #import <SatisMeter/SatisMeter.h>
 ```
 
-### Identify user
+## Identify user
 
 In your app delegate inside didFinishLaunchingWithOptions type this:
 
