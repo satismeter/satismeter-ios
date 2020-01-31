@@ -1,3 +1,7 @@
+# 0.2.11 (31 Jan 2020)
+- Fix build on XCode 11.3
+- Fix white text on white background in dark mode
+
 # 0.2.10
 - Fix number alignment on iPads
 - Fix keyboard ovelapping survey on iOS 11
