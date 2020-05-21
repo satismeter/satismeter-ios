@@ -11,5 +11,5 @@ osx_image: xcode9
 # - gem install cocoapods # Since Travis is not always on latest version
 # - pod install --project-directory=Example
 script:
-- set -o pipefail && xcodebuild test -project Examples/SampleApp/SampleApp.xcodeproj -scheme SampleApp -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 8' ONLY_ACTIVE_ARCH=NO | xcpretty
-- pod lib lint
+  - set -o pipefail && xcodebuild test -project Examples/ObjectiveC/SampleApp.xcodeproj -scheme SampleApp -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 8' ONLY_ACTIVE_ARCH=NO | xcpretty
+  - pod lib lint
