@@ -8,7 +8,7 @@ SatisMeter is mobile and web platform for collecting customer feedback, based on
 ![Screenshot](https://raw.githubusercontent.com/satismeter/satismeter-ios/master/Images/iphone-satismeter.png)  ![Screenshot](https://github.com/satismeter/satismeter-ios/blob/master/Images/iphone-satismeter-follow-up-question.png)
 
 ## Requirements
- - iOS 7.1+
+ - iOS 12.0+
 ## Installation
 This build is ready to test and use.
 Move to your project->Project Navigator window and Drag and Drop [SatisMeter](SatisMeter/) folder. Make sure that 'Copy items if needed' is checked.

@@ -11,7 +11,7 @@ SatisMeter is mobile and web platform for collecting customer feedback, based on
 
 ## Requirements
 
- - iOS 7.1+
+ - iOS 12.0+
 
 ## Installation
 
