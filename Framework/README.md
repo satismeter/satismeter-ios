@@ -17,7 +17,7 @@ Copy SatisMeterResources.bundle from SatisMeter.framework by path SatisMeter.fra
 
 ### Import header
 ```objective-c
-#import <SatisMeter/SatisMeter.h>
+#import <SatisMeterFramework/SatisMeter.h>
 ```
 
 ### Registration
