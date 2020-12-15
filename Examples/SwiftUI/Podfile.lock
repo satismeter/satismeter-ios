@@ -1,0 +1,16 @@
+PODS:
+  - SatisMeter (0.2.13)
+
+DEPENDENCIES:
+  - SatisMeter
+
+SPEC REPOS:
+  trunk:
+    - SatisMeter
+
+SPEC CHECKSUMS:
+  SatisMeter: 84cf219b0fb9e63a7251a34d312cf4b1b7c11787
+
+PODFILE CHECKSUM: f3983f1ae6842a695b723fcdb7504c7fe8e0170d
+
+COCOAPODS: 1.10.0
