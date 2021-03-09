@@ -1,3 +1,7 @@
+# 0.3.0 (05 Mar 2021)
+
+- Feature: Call-to-action on Thank you screen
+
 # 0.2.12 (31 Jan 2020)
 
 - Fix podspec version
