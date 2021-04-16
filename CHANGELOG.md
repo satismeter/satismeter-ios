@@ -1,3 +1,7 @@
+# 0.3.1 (16 Mar 2021)
+
+- Fix: Identify user even after completing the survey
+
 # 0.3.0 (05 Mar 2021)
 
 - Feature: Call-to-action on Thank you screen
