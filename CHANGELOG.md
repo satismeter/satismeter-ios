@@ -1,4 +1,4 @@
-# 0.3.1 (16 Mar 2021)
+# 0.3.3 (16 Mar 2021)
 
 - Fix: Identify user even after completing the survey
 
