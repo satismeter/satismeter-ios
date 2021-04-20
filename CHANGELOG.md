@@ -1,4 +1,4 @@
-# 0.4.0 (16 Mar 2021)
+# 0.4.0 (16 Mar 2021) [Bad release]
 
 - Feature: Show in-app review prompt directly without need of user to click on CTA
 
