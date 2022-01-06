@@ -182,19 +182,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-satismeter-swift-test/Pods-satismeter-swift-test-resources.sh",
-				"${PODS_ROOT}/SatisMeter/Pod/Assets/SatisMeterResources.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/SatisMeter/SatisMeter.bundle",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-satismeter-swift-test/Pods-satismeter-swift-test-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SatisMeterResources.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SatisMeter.bundle",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-satismeter-swift-test/Pods-satismeter-swift-test-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-satismeter-swift-test/Pods-satismeter-swift-test-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-satismeter-swift-test/Pods-satismeter-swift-test-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

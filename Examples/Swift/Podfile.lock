@@ -1,16 +1,16 @@
 PODS:
-  - SatisMeter (0.2.10)
+  - SatisMeter (0.4.1)
 
 DEPENDENCIES:
   - SatisMeter
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - SatisMeter
 
 SPEC CHECKSUMS:
-  SatisMeter: 0812a7c010f85859a24758857c16a72ae292d49d
+  SatisMeter: 551f24187b906b3fb73fe12ad3ba25d2fc6a6b28
 
 PODFILE CHECKSUM: 5329639c5f96c554bd4c911a692687475bb0aa6f
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.10.1
