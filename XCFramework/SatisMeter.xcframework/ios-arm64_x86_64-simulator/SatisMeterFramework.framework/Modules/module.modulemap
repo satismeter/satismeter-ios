@@ -1,0 +1,6 @@
+framework module SatisMeterFramework {
+  umbrella header "SatisMeterFramework.h"
+
+  export *
+  module * { export * }
+}
