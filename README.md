@@ -1,9 +1,5 @@
 # SatisMeter iOS SDK
 
-[![Version](https://img.shields.io/cocoapods/v/SatisMeter.svg?style=flat)](http://cocoapods.org/pods/SatisMeter)
-[![License](https://img.shields.io/cocoapods/l/SatisMeter.svg?style=flat)](http://cocoapods.org/pods/SatisMeter)
-[![Platform](https://img.shields.io/cocoapods/p/SatisMeter.svg?style=flat)](http://cocoapods.org/pods/SatisMeter)
-
 SatisMeter is mobile and web platform for collecting customer feedback, based on Net Promoter Score. This package contains a survey widget that can be easily integrated into any iOS application.
 
 ![Screenshot](https://raw.githubusercontent.com/satismeter/satismeter-ios/master/Images/iphone-satismeter.png)
@@ -31,6 +27,10 @@ See [manual installation instructions](https://github.com/satismeter/satismeter-
 ### Installation using .framework build
 
 See [.framework installation instructions](https://github.com/satismeter/satismeter-ios/tree/master/Framework).
+
+### Installation using XCFramework build
+
+See [XCFramework installation instructions](https://github.com/satismeter/satismeter-ios/tree/master/XCFramework).
 
 ## Usage
 
