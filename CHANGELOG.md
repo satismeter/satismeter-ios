@@ -1,3 +1,6 @@
+# Rebuild for M1 (15 May 2023)
+- Feature: Support for iOS Simulator on Arm architecture (M1)
+
 # 0.4.1 (21 Apr 2021)
 
 - Feature: Show in-app review prompt directly without need of user to click on CTA
